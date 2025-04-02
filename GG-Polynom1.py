@@ -1,14 +1,6 @@
-def sep_char(c):
-    print (c * 60)
+from GG_Code_Sep_01 import *
 
-def gg_list_entry_int (n):
-    l1= []
-    # Append elements to the list 1
-    for i in range(n):
-        element = int(input(f"Enter element for List {i+1}: "))
-        l1.append(element)
-
-    return l1
+from GG_List_Entry_01 import *
 
 def main():
     import os

@@ -1,15 +1,8 @@
 #Simple Random Sampling
-def sep_char(c):
-    print (c * 60)
 
-def gg_list_entry_str (n):
-    l1= []
-    # Append elements to the list 1
-    for i in range(n):
-        element = input(f"Enter element for List {i+1}: ")
-        l1.append(element)
+from GG_List_Entry_01 import *
 
-    return l1
+from GG_Code_Sep_01 import *
 
 def srswor(m_list,m_sample_size):
     # Import permutations from itertools
@@ -17,7 +10,7 @@ def srswor(m_list,m_sample_size):
     # Import combinations from itertools
     from itertools import combinations
     #from math import comb
-
+    
     print("Simple Random Sampling without Replacement")
 
     m_element_count =len(m_list)**m_sample_size
@@ -57,6 +50,7 @@ def srswor(m_list,m_sample_size):
     
 def main():
     import os
+    from GG_List_Entry_01 import gg_list_entry_str
     
      # Clearing the Screen
     os.system('cls')

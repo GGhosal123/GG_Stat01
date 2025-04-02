@@ -1,5 +1,4 @@
-def sep_char(c):
-    print (c * 20)
+from GG_Code_Sep_01 import *
 
 sep_char("#")
 inp_chart_type = input(" Select Data Pattern (D-Discrete C-Continous) " )

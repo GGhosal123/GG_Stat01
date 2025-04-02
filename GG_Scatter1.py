@@ -1,5 +1,4 @@
-def sep_char(c):
-    print (c * 60)
+from GG_Code_Sep_01 import *
 
 def main():
     import os
